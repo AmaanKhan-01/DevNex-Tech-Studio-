@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="47" y1="26" x2="584" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B263B"/>
+      <stop offset="1" stop-color="#171B29"/>
+    </linearGradient>
+    <linearGradient id="poster" x1="183" y1="72" x2="401" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8B9E6"/>
+      <stop offset="1" stop-color="#887CA8"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="390" y1="186" x2="508" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9DEC8"/>
+      <stop offset="1" stop-color="#C9BCA4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(211 138 -134 204 331 199)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9B82F1" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#9B82F1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="139" y="47" width="390" height="318" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <rect width="640" height="400" rx="26" fill="url(#bg)"/>
+  <rect width="640" height="400" rx="26" fill="url(#glow)"/>
+  <path d="M55 327H585" stroke="#fff" stroke-opacity=".1"/>
+  <ellipse cx="332" cy="326" rx="166" ry="18" fill="#08090E" fill-opacity=".5" filter="url(#shadow)"/>
+  <g transform="rotate(-5 294 185)">
+    <rect x="184" y="72" width="216" height="231" rx="5" fill="url(#poster)" stroke="#fff" stroke-opacity=".6"/>
+    <circle cx="346" cy="117" r="24" fill="#E9C77E"/>
+    <path d="M211 103h70M211 112h48" stroke="#36344B" stroke-linecap="round" stroke-opacity=".5"/>
+    <text x="210" y="179" fill="#292638" font-family="Arial,sans-serif" font-size="31" font-weight="700" letter-spacing="-2">OPEN</text>
+    <text x="210" y="213" fill="#292638" font-family="Arial,sans-serif" font-size="31" font-weight="700" letter-spacing="-2">STUDIO</text>
+    <path d="M211 232h157" stroke="#393449" stroke-opacity=".55"/>
+    <text x="211" y="255" fill="#393449" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">IDENTITY / TYPE / PRINT</text>
+    <path d="M211 273h79" stroke="#393449" stroke-opacity=".4"/>
+  </g>
+  <g transform="rotate(7 464 239)">
+    <rect x="391" y="196" width="115" height="94" rx="4" fill="url(#paper)" stroke="#fff" stroke-opacity=".7"/>
+    <path d="M408 226h74M408 234h56" stroke="#8E8273" stroke-linecap="round"/>
+    <path d="M408 258c13-17 26-18 39-2 8 9 18 8 29-7" stroke="#5B685D" stroke-linecap="round" stroke-width="2"/>
+    <circle cx="475" cy="215" r="8" stroke="#897C6E"/>
+  </g>
+  <text x="54" y="66" fill="#D6C9FF" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">IDENTITY + GRAPHIC DESIGN</text>
+  <circle cx="570" cy="331" r="3" fill="#A78BFA"/>
+  <circle cx="582" cy="331" r="3" fill="#79A8FF" fill-opacity=".6"/>
+</svg>

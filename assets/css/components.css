@@ -1,0 +1,9 @@
+.art-packaging-tea { --art-bg: linear-gradient(145deg, #193a35, #171925 76%); }
+.art-packaging-tea .art-pack { background: linear-gradient(145deg, #8c965e, #58684f 58%, #394940); }
+.art-packaging-tea .art-pack-label { color: #202a23; }
+.art-canva-talk .art-story { background: linear-gradient(155deg, #d88d77, #6e4d98); }
+.art-canva-talk .art-story:nth-child(2) { background: linear-gradient(155deg, #7ba79a, #445d77); }
+.art-canva-talk .art-story:nth-child(3) { background: linear-gradient(155deg, #e3b367, #be625d); }
+.art-graphic-poster .art-identity { background: #b5a6ce; color: #2c2636; }
+.art-graphic-poster .art-identity span { font-size: 1.8rem; letter-spacing: -.08em; line-height: .9; }
+.art-web-catalog .browser-shape { border-radius: 8px 50% 50%; background: linear-gradient(145deg, #8da392, #536e66); }

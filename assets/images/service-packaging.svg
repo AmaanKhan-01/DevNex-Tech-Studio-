@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="30" y1="30" x2="602" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#29213F"/>
+      <stop offset="1" stop-color="#131927"/>
+    </linearGradient>
+    <linearGradient id="box" x1="210" y1="86" x2="407" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9C99A"/>
+      <stop offset="1" stop-color="#AA735E"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="408" y1="148" x2="497" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9D5B0"/>
+      <stop offset="1" stop-color="#7E957D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(204 138 -145 214 328 204)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="146" y="52" width="387" height="328" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <rect width="640" height="400" rx="26" fill="url(#bg)"/>
+  <rect width="640" height="400" rx="26" fill="url(#glow)"/>
+  <circle cx="505" cy="80" r="66" fill="#758CF8" fill-opacity=".08"/>
+  <path d="M56 326H584" stroke="#fff" stroke-opacity=".1"/>
+  <ellipse cx="339" cy="331" rx="180" ry="17" fill="#08090E" fill-opacity=".58" filter="url(#shadow)"/>
+  <path d="M196 117 316 73l117 44-119 48-118-48Z" fill="#F2D8AF"/>
+  <path d="M196 117v178l118 43V165l-118-48Z" fill="url(#box)"/>
+  <path d="m314 165 119-48v178l-119 43V165Z" fill="#865B53"/>
+  <path d="m214 132 82 33v143l-82-30V132Z" fill="#E8D8B9" fill-opacity=".92"/>
+  <path d="M232 157h47M232 166h38" stroke="#56604D" stroke-linecap="round" stroke-width="2"/>
+  <path d="M238 210c8-19 20-28 33-27-4 18-14 29-33 27Z" fill="#7B8C6D"/>
+  <path d="M259 218c-2-12 2-23 13-34" stroke="#62735D" stroke-linecap="round" stroke-width="2"/>
+  <path d="M225 249h55" stroke="#89735C" stroke-opacity=".42"/>
+  <rect x="424" y="120" width="58" height="27" rx="5" fill="#282A2D"/>
+  <path d="M417 147h72v145c0 12-10 22-22 22h-28c-12 0-22-10-22-22V147Z" fill="url(#bottle)"/>
+  <path d="M417 205h72v70h-72z" fill="#F0EAD4"/>
+  <path d="M430 221h46M430 229h34" stroke="#596557" stroke-linecap="round" stroke-width="2"/>
+  <path d="M443 246c4-8 9-12 16-12-2 8-7 12-16 12Z" fill="#829078"/>
+  <path d="M432 292h42" stroke="#fff" stroke-opacity=".34"/>
+  <text x="54" y="66" fill="#D6C9FF" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">PACKAGING DESIGN</text>
+  <circle cx="570" cy="331" r="3" fill="#A78BFA"/>
+  <circle cx="582" cy="331" r="3" fill="#79A8FF" fill-opacity=".6"/>
+</svg>
